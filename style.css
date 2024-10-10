@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --cor-de-fundo: #f5e37f;
-    --cor-primaria: #b12121;
-    --cor-secundaria: #3c3ea8;
+    --cor-de-fundo: #fad37f;
+    --cor-primaria: #c52222;
+    --cor-secundaria: #1d1919;
     --fonte: "Poppins", sans-serif;
 }
 *{
@@ -46,4 +46,21 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(1.4);
     transition: transform 0.3s;
+}
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}   
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-texto{
+    font-size: 1.3rem;
+    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
 }
