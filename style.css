@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --cor-de-fundo: #fad37f;
-    --cor-primaria: #c52222;
-    --cor-secundaria: #1d1919;
+    --cor-de-fundo: #ebd99e;
+    --cor-primaria: #a30f0f;
+    --cor-secundaria: #0f0869;
     --fonte: "Poppins", sans-serif;
 }
 *{
