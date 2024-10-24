@@ -18,8 +18,8 @@ const infos = [
     }
 ]
 const layout = {
-    plot_bgcolor: getCSS (--cor-de-fundo),
-    paper_bgcolor: getCSS(--cor-de-fundo)
+    plot_bgcolor: getCSS ('--cor-de-fundo'),
+    paper_bgcolor: getCSS('--cor-de-fundo')
 }
 const grafico = document.createElement('div');
 grafico.className = 'grafico'
