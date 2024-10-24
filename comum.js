@@ -8,6 +8,4 @@ const tickfont = {
     family: getCSS('--fonte')
 }
 
-export {
-    getCSS,tickfont
-}
+export {getCSS,tickfont}
